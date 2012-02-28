@@ -1,0 +1,67 @@
+.full_screen{
+	height:650px;
+	width: 100%;
+	border: 1px;
+	border-color: silver;
+	border-style: solid;
+}
+.bk_ground{
+	height:100%;
+	width:100%;
+}
+.bk_webflow_title{
+	height: 30px;
+	width: 100%;
+	color: black;
+	background-color: white;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: middle;
+	border-bottom: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+.full_screen div{
+	width: 100%;
+}
+#webflow_content{
+	height: 95%;
+	background-color: #f6f6f6;
+}
+#webflow_bottom_button{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-top: 1px;
+	border-top-color: silver;
+	border-top-style: solid;
+}
+#webflow_bottom_button button{
+	height: 25px;
+	width: 80px;
+	vertical-align: middle;
+	text-align: center;
+}
+#pop_msg{
+	width:300px;
+	height:100px;
+	background-color: gray;
+	z-index: 999;
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	visibility: hidden;
+	filter: Alpha(Opacity=20); /* 支持IE透明度20%*/
+	-moz-opacity:0.2; /* Moz + FF 透明度20%*/
+    opacity: 0.2; /* 支持CSS3的浏览器透明度20%*/
+}
+.workplan_title{
+	text-align: left;
+	line-height: 25px;
+	height: 30px;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: aqua;
+	color: gray;
+}

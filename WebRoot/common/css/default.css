@@ -1,0 +1,77 @@
+#field_list {
+    display: none;
+    visibility: hidden;
+}
+
+.h_datas {
+    width: 100%;
+}
+
+.table_line {
+    margin: 3px 5px 0px 5px;
+}
+
+.table_line td {
+    border: 1px solid #97acc1;
+    background: #ffffff;
+    padding: 1px 5px;
+}
+
+.box {
+    float: left;
+    position: relative;
+    width: 48%;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #97acc1;
+}
+
+.box:hover {
+    border: 1px solid #3f5d7c;
+}
+
+.box-control {
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    height: 28px;
+    display: none;
+}
+
+.box-c-button {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin: 0px 4px;
+    text-align: center;
+    border: 1px dashed #7186ab;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.zoom {
+    background: url("images/zoom.png") no-repeat center;
+}
+
+.edit {
+    background: url("images/edit.png") no-repeat center;
+}
+
+.chart {
+    width: 100%;
+    height: 100%;
+}
+.showTable{}
+.showTable table{border:1px solid #CCCCCC; background:#FFFFFF; margin:5px;width:95%;}
+.showTable table td{font-size:12px;padding:2px;border-bottom:1px solid #CCCCCC;}
+.showTable table td input{width:180px;}
+.showTable_left{width:100px;text-align:center;}
+.showTable_right{border-left:1px solid #CCCCCC;padding-left:2px;}
+.showTable_head{text-align:left; padding-left:20px;font-weight:bold; font-size:14px;height:25px;}
+.showTable_btn{width:80px; height:25px;}

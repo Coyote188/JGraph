@@ -1,0 +1,49 @@
+.accordion-caption {
+    height: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #bcc2c8;
+    background: #f1f1f1 url(bg-area-header.gif) repeat-x scroll 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+}
+
+.accordion-caption span {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background: url(collapse-expand.gif) no-repeat bottom;
+}
+
+.accordion-content {
+	overflow:auto;
+}
+
+.top_border {
+    border-top: 1px solid #bcc2c8;
+}
+
+.border {
+    border: 1px solid #bcc2c8;
+}
+.ad-menu{
+	overflow:hidden;
+}
+.ad-menu a {
+    display: block;
+    height: 20px;
+    margin: 3px 15px 3px 15px;
+    padding: 3px;
+    background: #ecf1f5;
+    color: #27607e;
+	border: 1px solid #eeeeee;
+}
+
+.ad-menu a:hover {
+    border: 1px dashed #cfcfcf;
+    background: #ffffff;
+}

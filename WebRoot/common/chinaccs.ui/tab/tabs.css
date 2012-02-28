@@ -1,0 +1,81 @@
+.cu-tab {
+    position: relative;
+    min-height: 50px;
+}
+
+.cu-tab-header {
+    border-top: 1px solid #808080;
+    white-space: nowrap;
+    height: 30px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.cu-tabul {
+    float: left;
+    height: 30px;
+    width: auto;
+    background: #f2f2f2;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.cu-tabli {
+    position: relative;
+    float: left;
+    height: 17px;
+    white-space: nowrap;
+    margin: 1px 0 0 1px;
+    padding: 5px;
+    border: 1px solid #718ba6;
+    border-bottom: 0;
+    z-index: 2;
+    background: url(bg_tab_list.gif) repeat-x;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+.cu-tab-panels {
+    overflow: auto;
+}
+
+.tabli-hover {
+    background-position: 0px -30px;
+}
+
+.tabli-select {
+    background-position: 0px -60px;
+    top: 1px;
+}
+
+.cu-tabli .cu-a {
+    display: block;
+    height: 18px;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-right: 18px;
+    color: #101010;
+    font-size: 12px;
+}
+
+.cu-tabli .cu-span {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 16px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+    background: url(bg_tab_close.gif) no-repeat;
+}
+
+.cu-tabcontent {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-top: 1px solid #718ba6;
+    display: none;
+    background: #f2f2f2;
+}

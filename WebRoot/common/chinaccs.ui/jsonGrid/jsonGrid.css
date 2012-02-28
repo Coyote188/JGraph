@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+*/
+#wrap {table-layout:fixed; word-break: break-all; overflow:hidden; } 
+.jsonGrid{
+     background:#fff;
+	 border:1px solid #808080;
+	 margin:2px;
+	}
+.jsonGrid .caption{
+	width:100%;
+	text-align:left;
+	height:26px;
+	background:#c1dada url(bg-caption.gif) repeat-x;
+	border-bottom:1px solid #808080;
+	}
+.jsonGrid .caption p{
+	font:bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	color:#3f5e76;
+	padding:4px 4px 4px 12px;
+	}
+
+.info{
+	display:none;
+	height:35px;
+	text-align:center;
+	font-size:15px;
+	color:#036;
+	background:url(loading.gif) no-repeat bottom;
+	z-index:9999;
+}
+.jsonGrid table{
+	width:100%;
+	border-collapse:collapse;
+	}
+.jsonGrid th{
+	font:13px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #fff; 
+    border:1px solid #c1dada;   
+    letter-spacing: 2px; 
+    text-align:left; 
+    padding:3px;
+	background: #CAE8EA url(bg_header.gif) repeat-x;
+	cursor:pointer;
+	table-layout:fixed; 
+	word-break: 
+	break-all; 
+	overflow:hidden; 
+    }
+.jsonGrid th p{
+	float:left;
+	display:block;
+	height:10px;
+	width:5px;
+	margin-top:5px;
+	margin-right:3px;
+	}
+.bgImageP{
+	float:left;
+	width:5px;
+	height:10px;
+	margin:2px;
+	background:url(sort.gif) no-repeat;
+	background-position:bottom;
+	}
+.bgImage1{
+	background:url(asc.gif) no-repeat;
+	}
+.bgImage0{
+	background:url(desc.gif) no-repeat;}
+.jsonGrid td{
+	 border-left: 1px solid #c1dada;
+	 border-bottom: 1px solid #c1dada;
+	 padding:4px;
+	 font:12px "Trebuchet MS",Arial, Helvetica, sans-serif;
+	}
+.jsonGrid td p{
+	padding:0;
+	color:#225e6a;}
+.bgColor1{
+	background:#e9f3fa;}
+.trHover{
+	background:#ebebeb;}
+.jsonGrid div.prepage{
+	font:bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	color:#3f5e76;
+	width:100%;
+	height:25px;
+	position:relative;
+	background:url(bg-caption.gif) repeat-x;
+	border-top:1px solid #808080;
+	}
+.jsonGrid div.prepage .pageSelect{
+	position:absolute;
+	left:80px;
+	height:20px;
+	margin:4px;
+	border:1px solid #369;
+	}
+.jsonGrid div.prepage .ifPage{
+	font:bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	height:20px;
+	margin:3px;
+	position:absolute;
+	right:0;
+	top:2px;
+	}
+.jsonGrid div.prepage .pageUp{
+	float:left;
+	height:20px;
+	width:16px;
+	margin:5px 2px 0 2px;
+	cursor:pointer;
+	background:url(previous.gif) no-repeat;}
+.jsonGrid div.prepage .pageDown{
+	float:left;
+	height:20px;
+	width:16px;
+	margin:5px 2px 0 2px;
+	cursor:pointer;
+	background:url(next.gif) no-repeat;}
+.jsonGrid div.prepage .homePage{
+	float:left;
+	height:20px;
+	width:16px;
+	margin:5px 2px 0 2px;
+	cursor:pointer;
+	background:url(first.gif) no-repeat;}
+.jsonGrid div.prepage .lastPage{
+	float:left;
+	height:20px;
+	width:16px;
+	margin:5px;
+	cursor:pointer;
+	background:url(last.gif) no-repeat;}
+.jsonGrid div.prepage .girdRefresh{
+	position:absolute;
+	left:135px;
+	top:3px;
+	padding:2px;
+	color:#369;
+}
+.jsonGrid div.prepage .girdRefresh span{
+	display:block;
+	float:left;
+	width:16px;
+	height:16px;
+	background:url(refresh.png) no-repeat;
+}
+.jsonGrid .pMsg{
+	margin:0 auto;
+	color:#db796f;
+	height:100px;
+	width:80%;
+	padding-top:25px;
+	text-align:center;
+	font-size:20px;
+}
